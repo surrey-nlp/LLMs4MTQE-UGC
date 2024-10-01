@@ -15,7 +15,7 @@ pip install -e ".[torch,metrics]"
 
 The data for this paper is under the "data" folder, which is specifically formatted for LLM training and inference using LLaMA-Factory. The orginal dataset was proposed in [our paper](https://aclanthology.org/2023.eamt-1.13/) and can be found at our [GitHub repository](https://github.com/surrey-nlp/HADQAET). 
 
-After downloading all data files under our "data" folder, copy all data files to the "data" subfolder under "LLaMA-Factory". Then, open the "dataset_info.json" file and add the following into the file to prepare for LLM inference or PEFT.
+After downloading all data files under our "data" folder, copy them to the "data" subfolder under "LLaMA-Factory". Then, open the "dataset_info.json" file and add the following into the file to prepare for LLM inference or PEFT.
 
 ```
   "train_p1": {
@@ -70,7 +70,7 @@ After downloading all data files under our "data" folder, copy all data files to
 
 ## PEFT
 
-You can follow our instructions below for PEFT of LLMs and refer to their [GitHub](https://github.com/hiyouga/LLaMA-Factory) for more details.
+You can follow our instructions below for PEFT of LLMs or refer to their [GitHub](https://github.com/hiyouga/LLaMA-Factory) for more details.
 
 ```
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
@@ -97,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
 
 ## Inference
 
-You can follow our instructions below for LLM inference and refer to their [GitHub](https://github.com/hiyouga/LLaMA-Factory) for more details.
+You can follow our instructions below for LLM inference or refer to their [GitHub](https://github.com/hiyouga/LLaMA-Factory) for more details.
 
 ```
 CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
