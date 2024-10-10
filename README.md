@@ -1,5 +1,5 @@
 # LLMs4MTQE-UGC
-This repository contains the code and data for LLMs to evaluate machine translation of emotion-loaded Chinese user-generated content (UGC). Our paper "Are Large Language Models State-of-the-art Quality Estimators for Machine Translation of User-generated Content?" will be presented at the 11th Workshop of Asian Translation at EMNLP2024. The paper investigates whether LLMs are better quality estimators than fine-tuning of multilingual pre-trained language models under in-context learning (ICL) and parameter-efficient fine-tuning (PEFT) scenarios. For more details, please find our arXiv preprint.
+This repository contains the code and data for LLMs to evaluate machine translation of emotion-loaded Chinese user-generated content (UGC). Our paper "Are Large Language Models State-of-the-art Quality Estimators for Machine Translation of User-generated Content?" will be presented at the 11th Workshop of Asian Translation at EMNLP2024. The paper investigates whether LLMs are better quality estimators than fine-tuning of multilingual pre-trained language models under in-context learning (ICL) and parameter-efficient fine-tuning (PEFT) scenarios. For more details, please find our [arXiv preprint](https://arxiv.org/abs/2410.06338).
 
 ## Installation
 
