@@ -118,6 +118,32 @@ CUDA_VISIBLE_DEVICES=0 python src/train_bash.py \
     --max_new_tokens 1024
 ```
 
+## Citation
+
+Shenbin Qian, Constantin Orasan, Diptesh Kanojia, and Félix Do Carmo. 2024. Are Large Language Models State-of-the-art Quality Estimators for Machine Translation of User-generated Content?. In *Proceedings of the Eleventh Workshop on Asian Translation (WAT 2024)*, pages 45–55, Miami, Florida, USA. Association for Computational Linguistics.
+
+## BibTex Citation
+
+```
+@inproceedings{qian-etal-2024-large-language,
+    title = "Are Large Language Models State-of-the-art Quality Estimators for Machine Translation of User-generated Content?",
+    author = "Qian, Shenbin  and
+      Orasan, Constantin  and
+      Kanojia, Diptesh  and
+      Do Carmo, F{\'e}lix",
+    editor = "Nakazawa, Toshiaki  and
+      Goto, Isao",
+    booktitle = "Proceedings of the Eleventh Workshop on Asian Translation (WAT 2024)",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.wat-1.4",
+    pages = "45--55",
+    abstract = "This paper investigates whether large language models (LLMs) are state-of-the-art quality estimators for machine translation of user-generated content (UGC) that contains emotional expressions, without the use of reference translations. To achieve this, we employ an existing emotion-related dataset with human-annotated errors and calculate quality evaluation scores based on the Multi-dimensional Quality Metrics. We compare the accuracy of several LLMs with that of our fine-tuned baseline models, under in-context learning and parameter-efficient fine-tuning (PEFT) scenarios. We find that PEFT of LLMs leads to better performance in score prediction with human interpretable explanations than fine-tuned models. However, a manual analysis of LLM outputs reveals that they still have problems such as refusal to reply to a prompt and unstable output while evaluating machine translation of UGC.",
+}
+```
+
 ## References
 
 Yaowei Zheng, Richong Zhang, Junhao Zhang, YeYanhan YeYanhan, and Zheyan Luo. 2024. LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models. In *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)*, pages 400–410, Bangkok, Thailand. Association for Computational Linguistics.
